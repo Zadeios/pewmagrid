@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eef2f5;
+  margin: 0;
+  padding-top: 80px;
+}
+
+.navbar {
+  background-color: rgba(10,29,55,0.6) !important;
+}
+
+.backdrop-blur {
+  backdrop-filter: blur(10px);
+}
+
+.hero {
+  position: relative;
+  height: 60vh;
+  background: url('../img/hero.jpg') center/cover no-repeat;
+}
+
+.hero .overlay {
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(135deg, rgba(10,29,55,0.7), rgba(79,195,247,0.4));
+}
+
+.hero .container {
+  position: relative; z-index: 2;
+}
+
+.filters select, .filters button {
+  border-radius: 50px;
+}
+
+.card {
+  border: none; border-radius: 15px; overflow: hidden;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 25px rgba(10,29,55,0.2);
+}
+
+.card-img-top {
+  height: 180px; object-fit: cover;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* --- Responsive Enhancements --- */
+/* Hero responsive */
+.hero {
+  background: url('../img/hero-bg.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 60vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.hero .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 767px) {
+  .hero { min-height: 40vh; }
+  .hero h1 { font-size: 2rem; }
+  .hero p { font-size: 1rem; }
+}
+/* Cards */
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+@media (min-width: 1200px) {
+  .card-img-top { height: 250px; }
+}
+/* Footer social links */
+footer a {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: 0.5rem;
+}
+/* Forms and buttons full width */
+form .form-control, form .btn {
+  width: 100%;
+}
+/* Ratio iframes */
+.ratio iframe {
+  width: 100%;
+  height: 100%;
+}

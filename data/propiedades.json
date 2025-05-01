@@ -1,0 +1,20 @@
+[
+  {
+    "imagen": "img/prop1.jpg",
+    "titulo": "Departamento Moderno en Santiago",
+    "descripcion": "Departamento de 2 dormitorios con vista a la cordillera.",
+    "precio": "$120.000.000"
+  },
+  {
+    "imagen": "img/prop2.jpg",
+    "titulo": "Casa Familiar en Ñuble",
+    "descripcion": "Casa de 4 dormitorios con jardín y piscina.",
+    "precio": "$200.000.000"
+  },
+  {
+    "imagen": "img/prop3.jpg",
+    "titulo": "Oficina Comercial en Providencia",
+    "descripcion": "Espacio de oficina amoblado de 50 m² cerca de metro.",
+    "precio": "$1.200.000 / mes"
+  }
+]

@@ -1,0 +1,15 @@
+
+[
+    {
+        "titulo": "Casa en el centro de Ñuñoa",
+        "descripcion": "Linda casa de 3 dormitorios, 2 baños y patio interior.",
+        "precio": "$150.000.000 CLP",
+        "imagen": "img/casa1.jpg"
+    },
+    {
+        "titulo": "Departamento en Providencia",
+        "descripcion": "Departamento moderno con excelente conectividad. 2 dormitorios, 1 baño.",
+        "precio": "$95.000.000 CLP",
+        "imagen": "img/departamento1.jpg"
+    }
+]
